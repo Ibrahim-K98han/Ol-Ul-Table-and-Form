@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Welcome to Student Registration Page</h1>
+    <form action="table.html"
+        style="border: 2px solid black; width:500px; height: 650px; margin: 20px; padding: 20px; margin: 0 auto;">
+        <label for="fname">Student name: <br> </label>
+        <input type="text" id="fname" name="fname" style="width: 300px; height: 25px;"><br><br>
+        <label for="lname">Email: <br></label>
+        <input type="email" id="lname" name="lname" style="width: 300px; height: 25px;" required><br><br>
+        <label for="lname">Password: <br></label>
+        <input type="password" id="lname" name="lname" style="width: 300px; height: 25px;"><br><br>
+        <label for="lname">Date of Birth: <br></label>
+        <input type="date" id="lname" name="lname" style="width: 300px; height: 25px;"><br><br>
+        <label for="lname">Division<br></label>
+        <td>
+            <select name="" id="" required="required" style="width: 300px; height: 25px;">
+                <option value="">Please select Division</option>
+                <option value="Dhaka" selected>Dhaka</option>
+                <option value="Rajshahi">Rajshahi</option>
+                <option value="Khulna">Khulna</option>
+                <option value="Mymensingh">Mymensingh</option>
+                <option value="Sylhet">Sylhet</option>
+                <option value="Borisal">Borisal</option>
+                <option value="Rongpur">Rongpur</option>
+                <option value="Chittagong">Chittagong</option>
+            </select>
+        </td><br><br>
+        <label for="lname">Gender:</label>
+        Male<input type="radio" name="gender" value="male" />
+        Female<input type="radio" name="gender" value="female" /><br><br>
+        <label for="lname">Education:</label>
+        SSC<input type="checkbox" name="ssc" value="" />
+        HSC<input type="checkbox" name="hsc" value="" />
+        BSC<input type="checkbox" name="bsc" value="" />
+        MSC<input type="checkbox" name="msc" value="" /><br><br>
+        <label for="lname">Upload File:</label>
+        <input type="file"><br><br>
+        <label>Comment</label><br>
+        <textarea name="" id="" cols="60" rows="8"></textarea><br><br>
+        <input type="submit" value="Submit" id="submit">
+        <input type="submit" value="Reset" id="submit">
+    </form>
+</body>
+
+</html>
